@@ -24,16 +24,19 @@ public class User {
 	private String name;
 	@Column
 	private Date reg_date;
+	@Column
+	private Date up_date;
 	
 	public User(){
 		
 	}
-	public User(String id, String email, String password, String name, Date reg_date){
+	public User(String id, String email, String password, String name, Date reg_date, Date up_date){
 		this.id = id;
 		this.email = email;
 		this.password = password;
 		this.name = name;
 		this.reg_date = reg_date;
+		this.up_date = up_date;
 	}
 	
 	public int getIdx() {
@@ -71,5 +74,11 @@ public class User {
 	}
 	public void setReg_date(Date reg_date) {
 		this.reg_date = reg_date;
+	}
+	public Date getUp_date() {
+		return up_date;
+	}
+	public void setUp_date(Date up_date) {
+		this.up_date = up_date;
 	}
 }
