@@ -25,6 +25,7 @@ dependencies {
 	compile('org.slf4j:slf4j-api')
 	compile('ch.qos.logback:logback-classic')
 	compile('org.springframework.boot:spring-boot-starter-freemarker')
+	compile("kr.pe.kwonnam.freemarker:freemarker-template-inheritance:0.4.RELEASE")
 	compile('com.h2database:h2')
 	compile('mysql:mysql-connector-java')
 	compile('org.springframework.boot:spring-boot-starter-data-jpa')

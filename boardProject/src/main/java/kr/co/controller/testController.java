@@ -16,7 +16,7 @@ public class testController {
 	
 	@RequestMapping("/")
 	String home(){
-		return "Hello World!";
+		return "index";
 	}
 	
 	@RequestMapping("/users")

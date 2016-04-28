@@ -10,10 +10,5 @@ public class Application {
 	static final Logger log = LoggerFactory.getLogger(Application.class);
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
-		log.trace("This is TRACE Log!");
-		log.debug("This is DEBUG Log!");
-		log.info("This is INFO Log!");
-		log.warn("This is WARN Log!");
-		log.error("This is ERROR Log!");
 	}
 }
